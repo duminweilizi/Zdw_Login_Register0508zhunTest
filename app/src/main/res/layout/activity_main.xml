@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="八  维"
+            android:textColor="#00f"
+            android:id="@+id/tev"
+            android:layout_centerInParent="true"
+            android:textSize="45sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtel"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:hint="请输入手机号"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edpass"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="请输入密码"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff3660">
+
+        <Button
+            android:onClick="login"
+            android:layout_weight="1"
+            android:text="登录"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="zhuce"
+            android:layout_weight="1"
+            android:text="注册"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

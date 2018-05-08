@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/leftjiantou"
+            android:onClick="fan_hui"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:text="注  册"
+            android:textColor="#00f"
+            android:id="@+id/ztev"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/zedtel"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:hint="请输入手机号"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/zedpass"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="请输入密码"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="zRegister"
+        android:background="#ff3660"
+        android:textSize="30dp"
+        android:text="注          册"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
